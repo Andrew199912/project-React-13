@@ -1,0 +1,99 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    font-size: 20px;
+}
+
+.filtradomarca {
+    display: flex;
+    margin: 15px;
+}
+.filteryear{
+    color: #9c27b0;
+    font-weight: bold;
+}
+#inputMarca {
+    width: 80px;
+    margin: 0 10px;
+    height: 30px;
+}
+
+#opcionesAnio {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.opcionFiltrado,
+.opcionActivo {
+    padding: 10px 20px;
+    min-width: 50px;
+    border-radius: 2rem;
+}
+
+.opcionFiltrado:hover,
+.opcionActivo {
+    background-color: #9c27b0;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: all 0.1s;
+    
+}
+
+#listadoCarros {
+    display: grid;
+    gap: 20px;
+    min-height: 480px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.car-item {
+    display: flex;
+    height: 235px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 10px #9b27b017;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 8px;
+}
+
+.car-name{ 
+    background-color: #9b27b017;
+    color: #9c27b0 ;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.enlace{
+    text-decoration-line: none;
+}
+
+.car-gender{
+    font-size: 1rem;
+    font-style: italic;
+    color:#9c27b0;
+}
+
+.car-year{
+    font-size: 1rem;
+    color:#3b3b3b;
+    
+}
+
+
+.car-image{
+    width: 250px;
+    height: 140px;
+}

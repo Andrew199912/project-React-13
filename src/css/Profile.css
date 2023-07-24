@@ -1,0 +1,18 @@
+.root1 {
+    flex-grow: 1;
+    margin: 1rem 5rem 0rem 5rem ;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.large {
+    width: 40px;
+    height: 40px;
+}
+
+.root2 {
+    margin-top: 1.5rem ;
+    background-color: rgba(235, 235, 235, 0.603);
+}
